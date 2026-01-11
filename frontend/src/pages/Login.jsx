@@ -106,10 +106,6 @@ export default function Login({ setUser }) {
             </button>
           </form>
         </div>
-
-        <div className="mt-6 text-center text-gray-500 text-xs">
-          <p>Default Admin: admin / admin123</p>
-        </div>
       </div>
     </div>
   );
