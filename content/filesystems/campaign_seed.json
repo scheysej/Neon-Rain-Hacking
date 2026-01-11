@@ -1,0 +1,1020 @@
+{
+  "root": {
+    "type": "dir",
+    "children": {
+      "server_room": {
+        "type": "dir",
+        "children": {
+          "access_log.txt": {
+            "type": "file",
+            "contents": "IMMORTECH SERVER ACCESS LOG - FLOOR 17\n====================================\n\n2077-11-13 00:00:00 - System maintenance completed\n2077-11-13 00:00:15 - Database backup initiated\n2077-11-13 00:05:32 - Database backup completed successfully\n2077-11-13 06:00:00 - Daily system check completed\n2077-11-13 08:00:00 - Morning shift login window opened\n2077-11-13 08:15:32 - User login: tech_jun\n2077-11-13 08:16:45 - Database query: patient records\n2077-11-13 08:17:12 - File access: /patient_database/\n\nWARNING: Unauthorized access attempts will trigger\nimmediate security response.\nAll activities are logged and monitored."
+          },
+          "system_status.txt": {
+            "type": "file",
+            "contents": "IMMORTECH MEDICAL SERVER STATUS\n===============================\n\nSystem: IMMORTECH Medical Database Server v7.3\nLocation: Floor 17, Room 1701\nStatus: OPERATIONAL\n\nUptime: 99.97%\nLast Maintenance: 2077-11-10\nNext Maintenance: 2077-11-20\n\nSecurity Level: MAXIMUM\nAccess: Physical connection required\nRemote access: DISABLED\n\nAll data encrypted with AES-256.\nBackup frequency: Every 6 hours.\nLast backup: 2077-11-13 00:05:32"
+          },
+          "access_point_1": {
+            "type": "dir",
+            "children": {
+              "lab_results": {
+                "type": "dir",
+                "children": {
+                  "bloodwork": {
+                    "type": "dir",
+                    "children": {
+                      "routine": {
+                        "type": "dir",
+                        "children": {
+                          "2027": {
+                            "type": "dir",
+                            "children": {
+                              "q1": {
+                                "type": "dir",
+                                "children": {
+                                  "readme.txt": {
+                                    "type": "file",
+                                    "contents": "ROUTINE BLOODWORK - 2027 Q1\n===========================\n\nThis directory contains routine blood test results\nfrom the first quarter of 2077.\n\nTotal records: 847\nAccess level: Level 2 clearance required."
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "specialized": {
+                        "type": "dir",
+                        "children": {
+                          "genetic_markers": {
+                            "type": "dir",
+                            "children": {
+                              "readme.txt": {
+                                "type": "file",
+                                "contents": "GENETIC MARKER ANALYSIS\n========================\n\nSpecialized bloodwork for genetic marker identification.\nUsed in PROJECT IMMORTAL research.\n\nHighly classified - Level 4 clearance required."
+                              },
+                              "security_lock_alpha.dat": {
+                                "type": "file",
+                                "contents": "SECURITY LOCK FILE - DO NOT DELETE\n==================================\n\nThis file maintains security protocols for access point 2.\nDeleting this file will unlock pathways for user group 2.",
+                                "meta": {
+                                  "securityFile": true,
+                                  "unlocksPaths": ["/server_room/access_point_2/diagnostics/imaging"],
+                                  "targetUsers": [1]
+                                }
+                              }
+                            }
+                          },
+                          "toxin_screening": {
+                            "type": "dir",
+                            "children": {
+                              "index.txt": {
+                                "type": "file",
+                                "contents": "TOXIN SCREENING RESULTS\n========================\n\nBloodwork analysis for biological weapon resistance testing.\nClassified under Biological Defense Initiative."
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "genetic_analysis": {
+                    "type": "dir",
+                    "children": {
+                      "sequencing": {
+                        "type": "dir",
+                        "children": {
+                          "full_genome": {
+                            "type": "dir",
+                            "children": {
+                              "readme.txt": {
+                                "type": "file",
+                                "contents": "FULL GENOME SEQUENCING\n======================\n\nComplete genetic sequencing data.\nUsed for life extension research.\n\nLevel 5 clearance required."
+                              }
+                            }
+                          },
+                          "targeted": {
+                            "type": "dir",
+                            "children": {
+                              "index.txt": {
+                                "type": "file",
+                                "contents": "TARGETED GENETIC ANALYSIS\n==========================\n\nSpecific gene sequence analysis.\nFocus on longevity and enhancement markers."
+                              },
+                              "security_lock_theta.dat": {
+                                "type": "file",
+                                "contents": "SECURITY LOCK FILE - DO NOT DELETE\n==================================\n\nThis file maintains security protocols for access point 4.\nDeleting this file will unlock pathways for user group 3.",
+                                "meta": {
+                                  "securityFile": true,
+                                  "unlocksPaths": ["/server_room/access_point_4/research/enhancement_protocols"],
+                                  "targetUsers": [0]
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "mutation_tracking": {
+                        "type": "dir",
+                        "meta": {
+                          "locked": true
+                        },
+                        "children": {
+                          "readme.txt": {
+                            "type": "file",
+                            "contents": "MUTATION TRACKING DATABASE\n===========================\n\nTracks genetic mutations from experimental treatments.\nHighly sensitive data."
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "pathology": {
+                    "type": "dir",
+                    "meta": {
+                      "locked": true
+                    },
+                    "children": {
+                      "tissue_samples": {
+                        "type": "dir",
+                        "children": {
+                          "analysis": {
+                            "type": "dir",
+                            "children": {
+                              "readme.txt": {
+                                "type": "file",
+                                "contents": "PATHOLOGY - TISSUE SAMPLES\n============================\n\nTissue sample analysis results.\nUsed in regenerative therapy research."
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "microbiology": {
+                    "type": "dir",
+                    "children": {
+                      "cultures": {
+                        "type": "dir",
+                        "children": {
+                          "bacterial": {
+                            "type": "dir",
+                            "children": {
+                              "readme.txt": {
+                                "type": "file",
+                                "contents": "BACTERIAL CULTURE ANALYSIS\n===========================\n\nBacterial culture results from patient samples.\nUsed in infection treatment protocols."
+                              }
+                            }
+                          },
+                          "viral": {
+                            "type": "dir",
+                            "meta": {
+                              "locked": true
+                            },
+                            "children": {
+                              "readme.txt": {
+                                "type": "file",
+                                "contents": "VIRAL CULTURE ANALYSIS\n========================\n\nViral culture results.\nHighly sensitive data - Level 4 clearance required."
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "diagnostics": {
+                "type": "dir",
+                "meta": {
+                  "locked": true
+                },
+                "children": {
+                  "mri_scans": {
+                    "type": "dir",
+                    "children": {
+                      "neurological": {
+                        "type": "dir",
+                        "children": {
+                          "readme.txt": {
+                            "type": "file",
+                            "contents": "NEUROLOGICAL MRI SCANS\n======================\n\nBrain and nervous system imaging.\nCritical for neural interface procedures."
+                          }
+                        }
+                      },
+                      "musculoskeletal": {
+                        "type": "dir",
+                        "children": {
+                          "readme.txt": {
+                            "type": "file",
+                            "contents": "MUSCULOSKELETAL MRI SCANS\n==========================\n\nBone and muscle imaging.\nUsed for enhancement planning."
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "biomarkers": {
+                    "type": "dir",
+                    "meta": {
+                      "locked": true
+                    },
+                    "children": {
+                      "readme.txt": {
+                        "type": "file",
+                        "contents": "BIOMARKER DIAGNOSTICS\n======================\n\nBiological marker analysis for treatment monitoring.\nClassified research data."
+                      }
+                    }
+                  }
+                }
+              },
+              "pharmaceutical": {
+                "type": "dir",
+                "children": {
+                  "drug_trials": {
+                    "type": "dir",
+                    "children": {
+                      "phase_1": {
+                        "type": "dir",
+                        "children": {
+                          "readme.txt": {
+                            "type": "file",
+                            "contents": "PHARMACEUTICAL TRIALS - PHASE 1\n================================\n\nInitial drug testing protocols.\nSafety and efficacy studies."
+                          }
+                        }
+                      },
+                      "phase_2": {
+                        "type": "dir",
+                        "meta": {
+                          "locked": true
+                        },
+                        "children": {
+                          "readme.txt": {
+                            "type": "file",
+                            "contents": "PHARMACEUTICAL TRIALS - PHASE 2\n================================\n\nAdvanced drug testing.\nDosage optimization studies."
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "access_point_2": {
+            "type": "dir",
+            "children": {
+              "diagnostics": {
+                "type": "dir",
+                "children": {
+                  "imaging": {
+                    "type": "dir",
+                    "meta": {
+                      "locked": true
+                    },
+                    "children": {
+                      "ct_scans": {
+                        "type": "dir",
+                        "children": {
+                          "neurological": {
+                            "type": "dir",
+                            "children": {
+                              "brain_mapping": {
+                                "type": "dir",
+                                "children": {
+                                  "readme.txt": {
+                                    "type": "file",
+                                    "contents": "NEUROLOGICAL CT SCANS - BRAIN MAPPING\n=====================================\n\nCT scans used for neural interface compatibility.\nCritical for cybernetic enhancement procedures.\n\nLevel 3 clearance required."
+                                  },
+                                  "security_lock_beta.dat": {
+                                    "type": "file",
+                                    "contents": "SECURITY LOCK FILE - DO NOT DELETE\n==================================\n\nThis file maintains security protocols for access point 3.\nDeleting this file will unlock pathways for user group 3.",
+                                    "meta": {
+                                      "securityFile": true,
+                                      "unlocksPaths": ["/server_room/access_point_3/surgery_records/implants"],
+                                      "targetUsers": [2]
+                                    }
+                                  }
+                                }
+                              },
+                              "spinal": {
+                                "type": "dir",
+                                "children": {
+                                  "index.txt": {
+                                    "type": "file",
+                                    "contents": "SPINAL CT SCANS\n===============\n\nSpinal column imaging for neural link installation.\nRequired for full-body cybernetic integration."
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "musculoskeletal": {
+                            "type": "dir",
+                            "children": {
+                              "readme.txt": {
+                                "type": "file",
+                                "contents": "MUSCULOSKELETAL CT SCANS\n========================\n\nBone and muscle structure imaging.\nUsed for cybernetic limb replacement planning."
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "xray_archive": {
+                        "type": "dir",
+                        "children": {
+                          "historical": {
+                            "type": "dir",
+                            "children": {
+                              "2020_2025": {
+                                "type": "dir",
+                                "children": {
+                                  "index.txt": {
+                                    "type": "file",
+                                    "contents": "HISTORICAL X-RAY ARCHIVE\n=========================\n\nX-ray imaging data from 2020-2025.\nBaseline comparisons for enhancement tracking."
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "ultrasound": {
+                        "type": "dir",
+                        "meta": {
+                          "locked": true
+                        },
+                        "children": {
+                          "cardiac": {
+                            "type": "dir",
+                            "children": {
+                              "readme.txt": {
+                                "type": "file",
+                                "contents": "CARDIAC ULTRASOUND\n===================\n\nHeart imaging for enhancement assessment.\nUsed in life extension protocols."
+                              }
+                            }
+                          },
+                          "abdominal": {
+                            "type": "dir",
+                            "children": {
+                              "readme.txt": {
+                                "type": "file",
+                                "contents": "ABDOMINAL ULTRASOUND\n====================\n\nOrgan imaging for enhancement planning.\nCritical for biological modifications."
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "pet_scans": {
+                        "type": "dir",
+                        "meta": {
+                          "locked": true
+                        },
+                        "children": {
+                          "readme.txt": {
+                            "type": "file",
+                            "contents": "PET SCAN ARCHIVE\n================\n\nPositron emission tomography results.\nUsed for metabolic activity assessment."
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "biomarkers": {
+                    "type": "dir",
+                    "meta": {
+                      "locked": true
+                    },
+                    "children": {
+                      "protein_analysis": {
+                        "type": "dir",
+                        "children": {
+                          "readme.txt": {
+                            "type": "file",
+                            "contents": "PROTEIN BIOMARKER ANALYSIS\n===========================\n\nProtein level tracking for treatment monitoring.\nClassified research data."
+                          }
+                        }
+                      },
+                      "hormone_levels": {
+                        "type": "dir",
+                        "meta": {
+                          "locked": true
+                        },
+                        "children": {
+                          "readme.txt": {
+                            "type": "file",
+                            "contents": "HORMONE LEVEL TRACKING\n========================\n\nEndocrine system monitoring.\nUsed in age reversal research."
+                          }
+                        }
+                      }
+                    }
+                  },
+                          "vital_signs": {
+                    "type": "dir",
+                    "children": {
+                      "monitoring": {
+                        "type": "dir",
+                        "children": {
+                          "readme.txt": {
+                            "type": "file",
+                            "contents": "VITAL SIGNS MONITORING\n========================\n\nContinuous patient monitoring data.\nReal-time health status tracking."
+                          },
+                          "security_lock_epsilon.dat": {
+                            "type": "file",
+                            "contents": "SECURITY LOCK FILE - DO NOT DELETE\n==================================\n\nThis file maintains security protocols for access point 1.\nDeleting this file will unlock pathways for user group 0.",
+                            "meta": {
+                              "securityFile": true,
+                              "unlocksPaths": ["/server_room/access_point_1/lab_results/pathology"],
+                              "targetUsers": [2]
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "surgery_records": {
+                "type": "dir",
+                "meta": {
+                  "locked": true
+                },
+                "children": {
+                  "procedures": {
+                    "type": "dir",
+                    "children": {
+                      "readme.txt": {
+                        "type": "file",
+                        "contents": "SURGICAL PROCEDURES\n===================\n\nRecords of all surgical procedures performed.\nHighly confidential."
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "access_point_3": {
+            "type": "dir",
+            "children": {
+              "surgery_records": {
+                "type": "dir",
+                "children": {
+                  "implants": {
+                    "type": "dir",
+                    "meta": {
+                      "locked": true
+                    },
+                    "children": {
+                      "cybernetic": {
+                        "type": "dir",
+                        "children": {
+                          "neural_interfaces": {
+                            "type": "dir",
+                            "children": {
+                              "standard": {
+                                "type": "dir",
+                                "children": {
+                                  "readme.txt": {
+                                    "type": "file",
+                                    "contents": "STANDARD NEURAL INTERFACES\n==========================\n\nDocumentation for standard neural link installations.\nIMMORTECH proprietary technology.\n\nLevel 3 clearance required."
+                                  }
+                                }
+                              },
+                              "advanced": {
+                                "type": "dir",
+                                "children": {
+                                  "readme.txt": {
+                                    "type": "file",
+                                    "contents": "ADVANCED NEURAL INTERFACES\n==========================\n\nHigh-performance neural link systems.\nElite tier enhancements only."
+                                  },
+                                  "security_lock_gamma.dat": {
+                                    "type": "file",
+                                    "contents": "SECURITY LOCK FILE - DO NOT DELETE\n==================================\n\nThis file maintains security protocols for access point 4.\nDeleting this file will unlock pathways for user group 4.",
+                                    "meta": {
+                                      "securityFile": true,
+                                      "unlocksPaths": ["/server_room/access_point_4/research/life_extension"],
+                                      "targetUsers": [3]
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "limb_replacements": {
+                            "type": "dir",
+                            "children": {
+                              "readme.txt": {
+                                "type": "file",
+                                "contents": "CYBERNETIC LIMB REPLACEMENTS\n============================\n\nRecords of cybernetic limb installation procedures.\nFull integration protocols documented."
+                              }
+                            }
+                          },
+                          "sensory_enhancements": {
+                            "type": "dir",
+                            "meta": {
+                              "locked": true
+                            },
+                            "children": {
+                              "optical": {
+                                "type": "dir",
+                                "children": {
+                                  "readme.txt": {
+                                    "type": "file",
+                                    "contents": "OPTICAL ENHANCEMENT RECORDS\n==========================\n\nCybernetic eye replacement procedures.\nNight vision, thermal imaging, data overlay systems."
+                                  }
+                                }
+                              },
+                              "auditory": {
+                                "type": "dir",
+                                "children": {
+                                  "readme.txt": {
+                                    "type": "file",
+                                    "contents": "AUDITORY ENHANCEMENT RECORDS\n============================\n\nEnhanced hearing system installations.\nFrequency range expansion, noise filtering."
+                                  },
+                                  "security_lock_zeta.dat": {
+                                    "type": "file",
+                                    "contents": "SECURITY LOCK FILE - DO NOT DELETE\n==================================\n\nThis file maintains security protocols for access point 2.\nDeleting this file will unlock pathways for user group 1.",
+                                    "meta": {
+                                      "securityFile": true,
+                                      "unlocksPaths": ["/server_room/access_point_2/diagnostics/biomarkers"],
+                                      "targetUsers": [3]
+                                    }
+                                  }
+                                }
+                              },
+                              "tactile": {
+                                "type": "dir",
+                                "meta": {
+                                  "locked": true
+                                },
+                                "children": {
+                                  "readme.txt": {
+                                    "type": "file",
+                                    "contents": "TACTILE ENHANCEMENT RECORDS\n===========================\n\nEnhanced touch sensitivity systems.\nPrecision feedback mechanisms."
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "neural_boosters": {
+                            "type": "dir",
+                            "meta": {
+                              "locked": true
+                            },
+                            "children": {
+                              "readme.txt": {
+                                "type": "file",
+                                "contents": "NEURAL BOOSTER RECORDS\n========================\n\nCognitive enhancement implant procedures.\nProcessing speed and memory expansion."
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "biological": {
+                        "type": "dir",
+                        "children": {
+                          "organ_enhancements": {
+                            "type": "dir",
+                            "children": {
+                              "cardiac": {
+                                "type": "dir",
+                                "children": {
+                                  "readme.txt": {
+                                    "type": "file",
+                                    "contents": "CARDIAC ENHANCEMENT RECORDS\n===========================\n\nHeart enhancement procedures.\nIncreased efficiency and longevity."
+                                  }
+                                }
+                              },
+                              "pulmonary": {
+                                "type": "dir",
+                                "children": {
+                                  "readme.txt": {
+                                    "type": "file",
+                                    "contents": "PULMONARY ENHANCEMENT RECORDS\n==============================\n\nLung enhancement procedures.\nOxygen efficiency improvements."
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "genetic_modifications": {
+                            "type": "dir",
+                            "meta": {
+                              "locked": true
+                            },
+                            "children": {
+                              "gene_therapy": {
+                                "type": "dir",
+                                "children": {
+                                  "readme.txt": {
+                                    "type": "file",
+                                    "contents": "GENE THERAPY RECORDS\n====================\n\nGenetic modification procedures.\nLongevity and enhancement protocols."
+                                  }
+                                }
+                              },
+                              "crispr_protocols": {
+                                "type": "dir",
+                                "meta": {
+                                  "locked": true
+                                },
+                                "children": {
+                                  "readme.txt": {
+                                    "type": "file",
+                                    "contents": "CRISPR PROTOCOL RECORDS\n========================\n\nPrecise genetic editing procedures.\nTop-secret research protocols."
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "procedures": {
+                    "type": "dir",
+                    "meta": {
+                      "locked": true
+                    },
+                    "children": {
+                      "minor": {
+                        "type": "dir",
+                        "children": {
+                          "readme.txt": {
+                            "type": "file",
+                            "contents": "MINOR SURGICAL PROCEDURES\n==========================\n\nOutpatient and minor surgery records.\nStandard medical procedures."
+                          }
+                        }
+                      },
+                      "major": {
+                        "type": "dir",
+                        "meta": {
+                          "locked": true
+                        },
+                        "children": {
+                          "readme.txt": {
+                            "type": "file",
+                            "contents": "MAJOR SURGICAL PROCEDURES\n==========================\n\nComplex surgical procedure records.\nHighly confidential medical data."
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "recovery": {
+                    "type": "dir",
+                    "children": {
+                      "protocols": {
+                        "type": "dir",
+                        "children": {
+                          "readme.txt": {
+                            "type": "file",
+                            "contents": "RECOVERY PROTOCOL DATABASE\n===========================\n\nPost-operative recovery procedures.\nRehabilitation and monitoring protocols."
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "research": {
+                "type": "dir",
+                "meta": {
+                  "locked": true
+                },
+                "children": {
+                  "experimental": {
+                    "type": "dir",
+                    "children": {
+                      "readme.txt": {
+                        "type": "file",
+                        "contents": "EXPERIMENTAL RESEARCH\n=====================\n\nTop-secret research data.\nExecutive clearance required."
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "access_point_4": {
+            "type": "dir",
+            "children": {
+              "research": {
+                "type": "dir",
+                "children": {
+                  "life_extension": {
+                    "type": "dir",
+                    "meta": {
+                      "locked": true
+                    },
+                    "children": {
+                      "project_immortal": {
+                        "type": "dir",
+                        "children": {
+                          "phase_1": {
+                            "type": "dir",
+                            "children": {
+                              "readme.txt": {
+                                "type": "file",
+                                "contents": "PROJECT IMMORTAL - PHASE 1\n==========================\n\nInitial life extension research.\nBasic cellular regeneration protocols.\n\nLevel 5 clearance required."
+                              }
+                            }
+                          },
+                          "phase_2": {
+                            "type": "dir",
+                            "children": {
+                              "readme.txt": {
+                                "type": "file",
+                                "contents": "PROJECT IMMORTAL - PHASE 2\n==========================\n\nAdvanced regeneration techniques.\nAge reversal protocols.\n\nLevel 6 clearance required."
+                              }
+                            }
+                          },
+                          "phase_3": {
+                            "type": "dir",
+                            "children": {
+                              "readme.txt": {
+                                "type": "file",
+                                "contents": "PROJECT IMMORTAL - PHASE 3\n==========================\n\nElite tier life extension.\nExecutive treatment protocols.\n\nLevel 7 clearance required."
+                              },
+                              "security_lock_delta.dat": {
+                                "type": "file",
+                                "contents": "SECURITY LOCK FILE - DO NOT DELETE\n==================================\n\nThis file maintains security protocols for patient database.\nDeleting this file will unlock pathways for all user groups.",
+                                "meta": {
+                                  "securityFile": true,
+                                  "unlocksPaths": ["/server_room/patient_database"],
+                                  "targetUsers": [0, 1, 2, 3]
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "cellular_regeneration": {
+                        "type": "dir",
+                        "children": {
+                          "readme.txt": {
+                            "type": "file",
+                            "contents": "CELLULAR REGENERATION RESEARCH\n================================\n\nAdvanced cellular repair and regeneration protocols.\nIMMORTECH's flagship research program."
+                          }
+                        }
+                      },
+                      "genetic_optimization": {
+                        "type": "dir",
+                        "meta": {
+                          "locked": true
+                        },
+                        "children": {
+                          "telomere_extension": {
+                            "type": "dir",
+                            "children": {
+                              "readme.txt": {
+                                "type": "file",
+                                "contents": "TELOMERE EXTENSION RESEARCH\n============================\n\nChromosome end preservation protocols.\nCritical for cellular longevity."
+                              }
+                            }
+                          },
+                          "dna_repair": {
+                            "type": "dir",
+                            "meta": {
+                              "locked": true
+                            },
+                            "children": {
+                              "readme.txt": {
+                                "type": "file",
+                                "contents": "DNA REPAIR MECHANISM RESEARCH\n================================\n\nEnhanced DNA repair protocols.\nPrevents cellular degradation."
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "consciousness_transfer": {
+                        "type": "dir",
+                        "meta": {
+                          "locked": true
+                        },
+                        "children": {
+                          "readme.txt": {
+                            "type": "file",
+                            "contents": "CONSCIOUSNESS TRANSFER RESEARCH\n==================================\n\nPROJECT OUROBOROS - Mind transfer protocols.\nUltra-classified research.\n\nLevel 7 clearance required."
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "enhancement_protocols": {
+                    "type": "dir",
+                    "meta": {
+                      "locked": true
+                    },
+                    "children": {
+                      "military": {
+                        "type": "dir",
+                        "children": {
+                          "readme.txt": {
+                            "type": "file",
+                            "contents": "MILITARY ENHANCEMENT PROTOCOLS\n================================\n\nCombat enhancement procedures.\nElite operative modifications."
+                          }
+                        }
+                      },
+                      "civilian": {
+                        "type": "dir",
+                        "meta": {
+                          "locked": true
+                        },
+                        "children": {
+                          "readme.txt": {
+                            "type": "file",
+                            "contents": "CIVILIAN ENHANCEMENT PROTOCOLS\n=================================\n\nStandard enhancement procedures.\nGeneral population applications."
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "clinical_trials": {
+                    "type": "dir",
+                    "children": {
+                      "active": {
+                        "type": "dir",
+                        "children": {
+                          "readme.txt": {
+                            "type": "file",
+                            "contents": "ACTIVE CLINICAL TRIALS\n======================\n\nOngoing research studies.\nPatient recruitment and monitoring."
+                          },
+                          "security_lock_eta.dat": {
+                            "type": "file",
+                            "contents": "SECURITY LOCK FILE - DO NOT DELETE\n==================================\n\nThis file maintains security protocols for access point 3.\nDeleting this file will unlock pathways for user group 2.",
+                            "meta": {
+                              "securityFile": true,
+                              "unlocksPaths": ["/server_room/access_point_3/surgery_records/procedures"],
+                              "targetUsers": [0]
+                            }
+                          }
+                        }
+                      },
+                      "completed": {
+                        "type": "dir",
+                        "meta": {
+                          "locked": true
+                        },
+                        "children": {
+                          "readme.txt": {
+                            "type": "file",
+                            "contents": "COMPLETED CLINICAL TRIALS\n==========================\n\nHistorical trial data.\nResults and analysis reports."
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "patient_database": {
+                "type": "dir",
+                "meta": {
+                  "locked": true
+                },
+                "children": {
+                  "classified": {
+                    "type": "dir",
+                    "children": {
+                      "secure_vault": {
+                        "type": "dir",
+                        "children": {
+                          "encrypted_archive": {
+                            "type": "dir",
+                            "children": {
+                              "patient_files": {
+                                "type": "dir",
+                                "children": {}
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "patient_database": {
+            "type": "dir",
+            "meta": {
+              "locked": true
+            },
+            "children": {
+              "classified": {
+                "type": "dir",
+                "children": {
+                  "secure_vault": {
+                    "type": "dir",
+                    "children": {
+                      "encrypted_archive": {
+                        "type": "dir",
+                        "children": {
+                          "patient_files": {
+                            "type": "dir",
+                            "children": {
+                              "patient_IMT-2077001.txt": {
+                                "type": "file",
+                                "contents": "IMMORTECH PATIENT RECORD #IMT-2077001\n======================================\n\nSECURITY CLEARANCE LEVEL: 1 (PUBLIC)\n\nName: [REDACTED]\nDOB: 2045-03-22\nMRN: IMT-2077001\nEmployee ID: [REDACTED]\n\nAdmission Date: 2077-11-10\nPrimary Diagnosis: Routine health screening\nStatus: Completed - Discharged 2077-11-12\n\nTreatment: Standard physical examination\nOutcome: Within normal parameters\n\nAttending Physician: Dr. Martinez\nNotes: Patient cleared for active duty.\nNo follow-up required.\n\n---\nClassification: IMMORTECH SECURITY LEVEL 1\nRedaction Level: MINIMAL"
+                              },
+                              "patient_IMT-2077002.txt": {
+                                "type": "file",
+                                "contents": "IMMORTECH PATIENT RECORD #IMT-2077002\n======================================\n\nSECURITY CLEARANCE LEVEL: 2 (RESTRICTED)\n\nName: [REDACTED]\nDOB: 2042-07-14\nMRN: IMT-2077002\nEmployee ID: [REDACTED]\nSecurity Clearance: Level 2\n\nAdmission Date: 2077-11-11\nPrimary Diagnosis: [CLASSIFIED - LEVEL 3]\nStatus: In treatment\n\nTreatment: [REDACTED - LEVEL 3 CLEARANCE REQUIRED]\nCurrent Condition: Stable, responding to treatment\n\nAttending Physician: [REDACTED]\nNotes: [CLASSIFIED - LEVEL 3 CLEARANCE REQUIRED]\n\n---\nClassification: IMMORTECH SECURITY LEVEL 2\nRedaction Level: MODERATE\nAdditional details require Level 3 clearance."
+                              },
+                              "patient_IMT-2077003.txt": {
+                                "type": "file",
+                                "contents": "IMMORTECH PATIENT RECORD #IMT-2077003\n======================================\n\nSECURITY CLEARANCE LEVEL: 3 (CONFIDENTIAL)\n\nName: [REDACTED]\nDOB: 2048-11-30\nMRN: IMT-2077003\nEmployee ID: [REDACTED]\nSecurity Clearance: Level 3\nDepartment: [CLASSIFIED - LEVEL 4]\n\nAdmission Date: 2077-11-12\nPrimary Diagnosis: [CLASSIFIED - LEVEL 4]\nStatus: [REDACTED]\n\nTreatment Protocol: [CLASSIFIED - LEVEL 4]\nExperimental Procedures: [CLASSIFIED - LEVEL 5]\nCurrent Condition: [REDACTED]\n\nAttending Physician: [CLASSIFIED - LEVEL 4]\nResearch Team: [CLASSIFIED - LEVEL 5]\nNotes: [CLASSIFIED - LEVEL 5 CLEARANCE REQUIRED]\n\nProject Association: [CLASSIFIED - LEVEL 5]\nTrial Status: [CLASSIFIED - LEVEL 5]\n\n---\nClassification: IMMORTECH SECURITY LEVEL 3\nRedaction Level: HIGH\nAdditional details require Level 4-5 clearance."
+                              },
+                              "patient_IMT-2077004.txt": {
+                                "type": "file",
+                                "contents": "IMMORTECH PATIENT RECORD #IMT-2077004\n======================================\n\nSECURITY CLEARANCE LEVEL: 4 (SECRET)\n\nName: [REDACTED]\nDOB: [CLASSIFIED - LEVEL 5]\nMRN: IMT-2077004\nEmployee ID: [CLASSIFIED - LEVEL 5]\nSecurity Clearance: Level 4\nDepartment: [CLASSIFIED - LEVEL 5]\nAssignment: [CLASSIFIED - LEVEL 5]\n\nAdmission Date: [REDACTED]\nPrimary Diagnosis: [CLASSIFIED - LEVEL 5]\nStatus: [CLASSIFIED - LEVEL 5]\n\nTreatment Protocol: [CLASSIFIED - LEVEL 5]\nExperimental Procedures: [CLASSIFIED - LEVEL 6]\nBiological Modifications: [CLASSIFIED - LEVEL 6]\nCurrent Condition: [CLASSIFIED - LEVEL 5]\n\nAttending Physician: [CLASSIFIED - LEVEL 5]\nResearch Team: [CLASSIFIED - LEVEL 6]\nProject Director: [CLASSIFIED - LEVEL 6]\n\nNotes: [CLASSIFIED - LEVEL 6 CLEARANCE REQUIRED]\n\nProject Association: PROJECT IMMORTAL\nTrial Phase: [CLASSIFIED - LEVEL 6]\nSuccess Metrics: [CLASSIFIED - LEVEL 6]\nComplications: [CLASSIFIED - LEVEL 6]\n\n---\nClassification: IMMORTECH SECURITY LEVEL 4\nRedaction Level: EXTREME\nAdditional details require Level 5-6 clearance.\nExecutive approval required for full access."
+                              },
+                              "patient_IMT-2077005.txt": {
+                                "type": "file",
+                                "contents": "IMMORTECH PATIENT RECORD #IMT-2077005\n======================================\n\nSECURITY CLEARANCE LEVEL: 5 (TOP SECRET)\n\nName: [CLASSIFIED - LEVEL 6]\nDOB: [CLASSIFIED - LEVEL 6]\nMRN: IMT-2077005\nEmployee ID: [CLASSIFIED - LEVEL 6]\nSecurity Clearance: Level 5\nDepartment: [CLASSIFIED - LEVEL 6]\nAssignment: [CLASSIFIED - LEVEL 6]\nRank: [CLASSIFIED - LEVEL 6]\n\nAdmission Date: [CLASSIFIED - LEVEL 6]\nPrimary Diagnosis: [CLASSIFIED - LEVEL 6]\nSecondary Conditions: [CLASSIFIED - LEVEL 6]\nStatus: [CLASSIFIED - LEVEL 6]\n\nTreatment Protocol: [CLASSIFIED - LEVEL 6]\nExperimental Procedures: [CLASSIFIED - LEVEL 7]\nBiological Modifications: [CLASSIFIED - LEVEL 7]\nGenetic Alterations: [CLASSIFIED - LEVEL 7]\nCurrent Condition: [CLASSIFIED - LEVEL 6]\n\nAttending Physician: [CLASSIFIED - LEVEL 6]\nResearch Team: [CLASSIFIED - LEVEL 7]\nProject Director: [CLASSIFIED - LEVEL 7]\nExecutive Oversight: [CLASSIFIED - LEVEL 7]\n\nNotes: [CLASSIFIED - LEVEL 7 CLEARANCE REQUIRED]\n\nProject Association: PROJECT IMMORTAL - ELITE TIER\nTrial Phase: [CLASSIFIED - LEVEL 7]\nSuccess Metrics: [CLASSIFIED - LEVEL 7]\nComplications: [CLASSIFIED - LEVEL 7]\nLong-term Effects: [CLASSIFIED - LEVEL 7]\n\nBiological Samples: [CLASSIFIED - LEVEL 7]\nResearch Data: [CLASSIFIED - LEVEL 7]\n\n---\nClassification: IMMORTECH SECURITY LEVEL 5\nRedaction Level: MAXIMUM\nAdditional details require Level 6-7 clearance.\nExecutive and Board approval required for full access.\n\nWARNING: Unauthorized access to this record will result\nin immediate termination and legal prosecution."
+                              },
+                              "patient_IMT-2077006.txt": {
+                                "type": "file",
+                                "contents": "IMMORTECH PATIENT RECORD #IMT-2077006\n======================================\n\nSECURITY CLEARANCE LEVEL: 3 (CONFIDENTIAL)\n\nName: [REDACTED]\nDOB: 2050-05-18\nMRN: IMT-2077006\nEmployee ID: [REDACTED]\nSecurity Clearance: Level 3\n\nAdmission Date: 2077-10-28\nPrimary Diagnosis: Neural interface compatibility testing\nStatus: Active treatment\n\nTreatment: Cybernetic neural link installation\nComplications: Minor rejection symptoms, managed\n\nAttending Physician: Dr. Chen\nNotes: Patient showing 87% neural integration.\nRecommended for Phase 2 enhancement protocols.\n\nProject Association: Neural Enhancement Initiative\n\n---\nClassification: IMMORTECH SECURITY LEVEL 3\nRedaction Level: HIGH"
+                              },
+                              "patient_IMT-2077007.txt": {
+                                "type": "file",
+                                "contents": "IMMORTECH PATIENT RECORD #IMT-2077007\n======================================\n\nSECURITY CLEARANCE LEVEL: 4 (SECRET)\n\nName: [REDACTED]\nDOB: [CLASSIFIED - LEVEL 5]\nMRN: IMT-2077007\nEmployee ID: [CLASSIFIED - LEVEL 5]\nSecurity Clearance: Level 4\nDepartment: Corporate Security Division\n\nAdmission Date: 2077-10-15\nPrimary Diagnosis: Combat injury - severe trauma\nStatus: Recovering\n\nTreatment: Advanced regenerative therapy\nCybernetic limb replacement: Right arm, left leg\nBiological enhancements: Enhanced reflexes, subdermal armor\n\nAttending Physician: [CLASSIFIED - LEVEL 5]\nNotes: Patient is elite security operative.\nFull recovery expected within 2 weeks.\nCombat effectiveness: 95% of baseline.\n\nProject Association: Military Enhancement Program\n\n---\nClassification: IMMORTECH SECURITY LEVEL 4\nRedaction Level: EXTREME"
+                              },
+                              "patient_IMT-2077008.txt": {
+                                "type": "file",
+                                "contents": "IMMORTECH PATIENT RECORD #IMT-2077008\n======================================\n\nSECURITY CLEARANCE LEVEL: 2 (RESTRICTED)\n\nName: [REDACTED]\nDOB: 2047-09-03\nMRN: IMT-2077008\nEmployee ID: [REDACTED]\nSecurity Clearance: Level 2\n\nAdmission Date: 2077-11-05\nPrimary Diagnosis: Routine cybernetic maintenance\nStatus: Completed\n\nTreatment: Neural link calibration, reflex booster adjustment\nOutcome: All systems optimal\n\nAttending Physician: Dr. Williams\nNotes: Standard maintenance procedure.\nPatient cleared for active duty.\n\n---\nClassification: IMMORTECH SECURITY LEVEL 2\nRedaction Level: MODERATE"
+                              },
+                              "patient_IMT-2077009.txt": {
+                                "type": "file",
+                                "contents": "IMMORTECH PATIENT RECORD #IMT-2077009\n======================================\n\nSECURITY CLEARANCE LEVEL: 5 (TOP SECRET)\n\nName: [CLASSIFIED - LEVEL 6]\nDOB: [CLASSIFIED - LEVEL 6]\nMRN: IMT-2077009\nEmployee ID: [CLASSIFIED - LEVEL 6]\nSecurity Clearance: Level 5\nDepartment: [CLASSIFIED - LEVEL 6]\nAssignment: Executive Protection Detail\nRank: [CLASSIFIED - LEVEL 6]\n\nAdmission Date: [CLASSIFIED - LEVEL 6]\nPrimary Diagnosis: Age reversal therapy - Phase 3\nStatus: [CLASSIFIED - LEVEL 6]\n\nTreatment Protocol: [CLASSIFIED - LEVEL 7]\nExperimental Procedures: Cellular regeneration, genetic optimization\nBiological Modifications: [CLASSIFIED - LEVEL 7]\nGenetic Alterations: Telomere extension, cellular repair enhancement\nCurrent Condition: [CLASSIFIED - LEVEL 6]\n\nAttending Physician: [CLASSIFIED - LEVEL 6]\nResearch Team: [CLASSIFIED - LEVEL 7]\nProject Director: [CLASSIFIED - LEVEL 7]\n\nNotes: [CLASSIFIED - LEVEL 7 CLEARANCE REQUIRED]\n\nProject Association: PROJECT IMMORTAL - EXECUTIVE TIER\nTrial Phase: [CLASSIFIED - LEVEL 7]\nSuccess Metrics: Biological age reduced by 15 years\nComplications: [CLASSIFIED - LEVEL 7]\nLong-term Effects: [CLASSIFIED - LEVEL 7]\n\n---\nClassification: IMMORTECH SECURITY LEVEL 5\nRedaction Level: MAXIMUM"
+                              },
+                              "patient_IMT-2077010.txt": {
+                                "type": "file",
+                                "contents": "IMMORTECH PATIENT RECORD #IMT-2077010\n======================================\n\nSECURITY CLEARANCE LEVEL: 3 (CONFIDENTIAL)\n\nName: [REDACTED]\nDOB: 2049-12-25\nMRN: IMT-2077010\nEmployee ID: [REDACTED]\nSecurity Clearance: Level 3\n\nAdmission Date: 2077-11-01\nPrimary Diagnosis: Optical enhancement installation\nStatus: Post-operative recovery\n\nTreatment: Cybernetic eye replacement - left eye\nFeatures: Night vision, thermal imaging, data overlay\nComplications: None\n\nAttending Physician: Dr. Martinez\nNotes: Patient adapting well to new optics.\nIntegration successful. Recommended for bilateral upgrade.\n\nProject Association: Sensory Enhancement Program\n\n---\nClassification: IMMORTECH SECURITY LEVEL 3\nRedaction Level: HIGH"
+                              },
+                              "patient_IMT-2077011.txt": {
+                                "type": "file",
+                                "contents": "IMMORTECH PATIENT RECORD #IMT-2077011\n======================================\n\nSECURITY CLEARANCE LEVEL: 4 (SECRET)\n\nName: [REDACTED]\nDOB: [CLASSIFIED - LEVEL 5]\nMRN: IMT-2077011\nEmployee ID: [CLASSIFIED - LEVEL 5]\nSecurity Clearance: Level 4\nDepartment: Research & Development\n\nAdmission Date: 2077-10-20\nPrimary Diagnosis: Experimental enhancement trial\nStatus: Active monitoring\n\nTreatment: Strength augmentation module, speed enhancement\nBiological Modifications: Muscle fiber optimization, bone density increase\n\nAttending Physician: [CLASSIFIED - LEVEL 5]\nNotes: Subject showing 300% strength increase.\nNo adverse side effects observed.\nTrial status: SUCCESS\n\nProject Association: Physical Enhancement Initiative\n\n---\nClassification: IMMORTECH SECURITY LEVEL 4\nRedaction Level: EXTREME"
+                              },
+                              "patient_IMT-2077012.txt": {
+                                "type": "file",
+                                "contents": "IMMORTECH PATIENT RECORD #IMT-2077012\n======================================\n\nSECURITY CLEARANCE LEVEL: 2 (RESTRICTED)\n\nName: [REDACTED]\nDOB: 2046-08-14\nMRN: IMT-2077012\nEmployee ID: [REDACTED]\nSecurity Clearance: Level 2\n\nAdmission Date: 2077-11-08\nPrimary Diagnosis: Routine health monitoring\nStatus: Completed\n\nTreatment: Standard physical, bloodwork, genetic screening\nOutcome: All parameters within normal range\n\nAttending Physician: Dr. Chen\nNotes: Patient healthy. No enhancements required.\n\n---\nClassification: IMMORTECH SECURITY LEVEL 2\nRedaction Level: MODERATE"
+                              },
+                              "patient_IMT-2077013.txt": {
+                                "type": "file",
+                                "contents": "IMMORTECH PATIENT RECORD #IMT-2077013\n======================================\n\nSECURITY CLEARANCE LEVEL: 5 (TOP SECRET)\n\nName: [CLASSIFIED - LEVEL 6]\nDOB: [CLASSIFIED - LEVEL 6]\nMRN: IMT-2077013\nEmployee ID: [CLASSIFIED - LEVEL 6]\nSecurity Clearance: Level 5\nDepartment: [CLASSIFIED - LEVEL 6]\nAssignment: [CLASSIFIED - LEVEL 6]\nRank: Board Member\n\nAdmission Date: [CLASSIFIED - LEVEL 6]\nPrimary Diagnosis: [CLASSIFIED - LEVEL 7]\nStatus: [CLASSIFIED - LEVEL 6]\n\nTreatment Protocol: [CLASSIFIED - LEVEL 7]\nExperimental Procedures: [CLASSIFIED - LEVEL 7]\nBiological Modifications: [CLASSIFIED - LEVEL 7]\nGenetic Alterations: [CLASSIFIED - LEVEL 7]\nCurrent Condition: [CLASSIFIED - LEVEL 6]\n\nAttending Physician: [CLASSIFIED - LEVEL 7]\nResearch Team: [CLASSIFIED - LEVEL 7]\nProject Director: [CLASSIFIED - LEVEL 7]\nExecutive Oversight: [CLASSIFIED - LEVEL 7]\n\nNotes: [CLASSIFIED - LEVEL 7 CLEARANCE REQUIRED]\n\nProject Association: PROJECT IMMORTAL - BOARD TIER\nTrial Phase: [CLASSIFIED - LEVEL 7]\nSuccess Metrics: [CLASSIFIED - LEVEL 7]\nComplications: [CLASSIFIED - LEVEL 7]\nLong-term Effects: [CLASSIFIED - LEVEL 7]\n\nBiological Samples: [CLASSIFIED - LEVEL 7]\nResearch Data: [CLASSIFIED - LEVEL 7]\n\n---\nClassification: IMMORTECH SECURITY LEVEL 5\nRedaction Level: MAXIMUM"
+                              },
+                              "patient_IMT-2077014.txt": {
+                                "type": "file",
+                                "contents": "IMMORTECH PATIENT RECORD #IMT-2077014\n======================================\n\nSECURITY CLEARANCE LEVEL: 3 (CONFIDENTIAL)\n\nName: [REDACTED]\nDOB: 2051-02-11\nMRN: IMT-2077014\nEmployee ID: [REDACTED]\nSecurity Clearance: Level 3\n\nAdmission Date: 2077-10-30\nPrimary Diagnosis: Cybernetic interface rejection\nStatus: Under treatment\n\nTreatment: Immunosuppressive therapy, interface recalibration\nComplications: Moderate rejection, managed with medication\n\nAttending Physician: Dr. Williams\nNotes: Patient responding to treatment.\nInterface stability improving. Monitor closely.\n\nProject Association: Neural Interface Program\n\n---\nClassification: IMMORTECH SECURITY LEVEL 3\nRedaction Level: HIGH"
+                              },
+                              "patient_IMT-2077015.txt": {
+                                "type": "file",
+                                "contents": "IMMORTECH PATIENT RECORD #IMT-2077015\n======================================\n\nSECURITY CLEARANCE LEVEL: 4 (SECRET)\n\nName: [REDACTED]\nDOB: [CLASSIFIED - LEVEL 5]\nMRN: IMT-2077015\nEmployee ID: [CLASSIFIED - LEVEL 5]\nSecurity Clearance: Level 4\nDepartment: Special Operations\n\nAdmission Date: 2077-10-12\nPrimary Diagnosis: Combat enhancement - full body upgrade\nStatus: Recovery phase\n\nTreatment: Complete cybernetic skeleton, enhanced organs\nBiological Modifications: Adrenaline boosters, pain suppressors\nCybernetic Enhancements: Subdermal armor, reflex boosters, optical suite\n\nAttending Physician: [CLASSIFIED - LEVEL 5]\nNotes: Elite operative. Full enhancement package installed.\nCombat effectiveness: 450% of baseline.\nReady for field deployment.\n\nProject Association: Military Enhancement Program - Elite Tier\n\n---\nClassification: IMMORTECH SECURITY LEVEL 4\nRedaction Level: EXTREME"
+                              },
+                              "patient_IMT-2077016.txt": {
+                                "type": "file",
+                                "contents": "IMMORTECH PATIENT RECORD #IMT-2077016\n======================================\n\nSECURITY CLEARANCE LEVEL: 2 (RESTRICTED)\n\nName: [REDACTED]\nDOB: 2045-06-22\nMRN: IMT-2077016\nEmployee ID: [REDACTED]\nSecurity Clearance: Level 2\n\nAdmission Date: 2077-11-06\nPrimary Diagnosis: Routine maintenance - neural link\nStatus: Completed\n\nTreatment: Neural interface calibration, software update\nOutcome: All systems optimal\n\nAttending Physician: Dr. Martinez\nNotes: Standard procedure. No issues.\n\n---\nClassification: IMMORTECH SECURITY LEVEL 2\nRedaction Level: MODERATE"
+                              },
+                              "patient_IMT-2077017.txt": {
+                                "type": "file",
+                                "contents": "IMMORTECH PATIENT RECORD #IMT-2077017\n======================================\n\nSECURITY CLEARANCE LEVEL: 3 (CONFIDENTIAL)\n\nName: [REDACTED]\nDOB: 2048-04-07\nMRN: IMT-2077017\nEmployee ID: [REDACTED]\nSecurity Clearance: Level 3\n\nAdmission Date: 2077-10-25\nPrimary Diagnosis: Genetic optimization therapy\nStatus: Active treatment\n\nTreatment: Gene therapy for enhanced longevity\nComplications: None observed\n\nAttending Physician: Dr. Chen\nNotes: Patient showing positive response.\nCellular regeneration rates increased by 40%.\nContinue monitoring.\n\nProject Association: Life Extension Research\n\n---\nClassification: IMMORTECH SECURITY LEVEL 3\nRedaction Level: HIGH"
+                              },
+                              "patient_IMT-2077018.txt": {
+                                "type": "file",
+                                "contents": "IMMORTECH PATIENT RECORD #IMT-2077018\n======================================\n\nSECURITY CLEARANCE LEVEL: 5 (TOP SECRET)\n\nName: [CLASSIFIED - LEVEL 6]\nDOB: [CLASSIFIED - LEVEL 6]\nMRN: IMT-2077018\nEmployee ID: [CLASSIFIED - LEVEL 6]\nSecurity Clearance: Level 5\nDepartment: [CLASSIFIED - LEVEL 6]\nAssignment: [CLASSIFIED - LEVEL 6]\nRank: [CLASSIFIED - LEVEL 6]\n\nAdmission Date: [CLASSIFIED - LEVEL 6]\nPrimary Diagnosis: [CLASSIFIED - LEVEL 7]\nStatus: [CLASSIFIED - LEVEL 6]\n\nTreatment Protocol: [CLASSIFIED - LEVEL 7]\nExperimental Procedures: [CLASSIFIED - LEVEL 7]\nBiological Modifications: [CLASSIFIED - LEVEL 7]\nGenetic Alterations: [CLASSIFIED - LEVEL 7]\nCybernetic Enhancements: [CLASSIFIED - LEVEL 7]\nCurrent Condition: [CLASSIFIED - LEVEL 6]\n\nAttending Physician: [CLASSIFIED - LEVEL 7]\nResearch Team: [CLASSIFIED - LEVEL 7]\nProject Director: [CLASSIFIED - LEVEL 7]\n\nNotes: [CLASSIFIED - LEVEL 7 CLEARANCE REQUIRED]\n\nProject Association: PROJECT IMMORTAL - ULTIMATE TIER\nTrial Phase: [CLASSIFIED - LEVEL 7]\nSuccess Metrics: [CLASSIFIED - LEVEL 7]\nComplications: [CLASSIFIED - LEVEL 7]\nLong-term Effects: [CLASSIFIED - LEVEL 7]\n\n---\nClassification: IMMORTECH SECURITY LEVEL 5\nRedaction Level: MAXIMUM"
+                              },
+                              "patient_IMT-2077019.txt": {
+                                "type": "file",
+                                "contents": "IMMORTECH PATIENT RECORD #IMT-2077019\n======================================\n\nSECURITY CLEARANCE LEVEL: 4 (SECRET)\n\nName: [REDACTED]\nDOB: [CLASSIFIED - LEVEL 5]\nMRN: IMT-2077019\nEmployee ID: [CLASSIFIED - LEVEL 5]\nSecurity Clearance: Level 4\nDepartment: Corporate Intelligence\n\nAdmission Date: 2077-10-18\nPrimary Diagnosis: Memory enhancement, cognitive boosters\nStatus: Active monitoring\n\nTreatment: Neural memory expansion, processing speed enhancement\nBiological Modifications: Brain tissue optimization\n\nAttending Physician: [CLASSIFIED - LEVEL 5]\nNotes: Subject showing 500% increase in information processing.\nMemory capacity expanded by 300%.\nNo degradation observed.\n\nProject Association: Cognitive Enhancement Initiative\n\n---\nClassification: IMMORTECH SECURITY LEVEL 4\nRedaction Level: EXTREME"
+                              },
+                              "patient_IMT-2077020.txt": {
+                                "type": "file",
+                                "contents": "IMMORTECH PATIENT RECORD #IMT-2077020\n======================================\n\nSECURITY CLEARANCE LEVEL: 1 (PUBLIC)\n\nName: [REDACTED]\nDOB: 2044-01-15\nMRN: IMT-2077020\nEmployee ID: [REDACTED]\n\nAdmission Date: 2077-11-09\nPrimary Diagnosis: Routine health screening\nStatus: Completed - Discharged 2077-11-09\n\nTreatment: Standard physical examination, bloodwork\nOutcome: Within normal parameters\n\nAttending Physician: Dr. Williams\nNotes: Patient healthy. No issues detected.\n\n---\nClassification: IMMORTECH SECURITY LEVEL 1\nRedaction Level: MINIMAL"
+                              },
+                              "patient_IMT-2077021.txt": {
+                                "type": "file",
+                                "contents": "IMMORTECH PATIENT RECORD #IMT-2077021\n======================================\n\nSECURITY CLEARANCE LEVEL: 3 (CONFIDENTIAL)\n\nName: [REDACTED]\nDOB: 2050-09-28\nMRN: IMT-2077021\nEmployee ID: [REDACTED]\nSecurity Clearance: Level 3\n\nAdmission Date: 2077-10-22\nPrimary Diagnosis: Sensory enhancement package\nStatus: Post-operative\n\nTreatment: Enhanced hearing, olfactory sensors, tactile feedback\nComplications: Minor adjustment period, resolved\n\nAttending Physician: Dr. Martinez\nNotes: All sensory enhancements operational.\nPatient adapting well.\n\nProject Association: Sensory Enhancement Program\n\n---\nClassification: IMMORTECH SECURITY LEVEL 3\nRedaction Level: HIGH"
+                              },
+                              "patient_IMT-2077022.txt": {
+                                "type": "file",
+                                "contents": "IMMORTECH PATIENT RECORD #IMT-2077022\n======================================\n\nSECURITY CLEARANCE LEVEL: 4 (SECRET)\n\nName: [REDACTED]\nDOB: [CLASSIFIED - LEVEL 5]\nMRN: IMT-2077022\nEmployee ID: [CLASSIFIED - LEVEL 5]\nSecurity Clearance: Level 4\nDepartment: Research & Development\n\nAdmission Date: 2077-10-08\nPrimary Diagnosis: Experimental biological weapon resistance\nStatus: Active trial\n\nTreatment: Enhanced immune system, toxin resistance\nBiological Modifications: Cellular regeneration, toxin neutralization\n\nAttending Physician: [CLASSIFIED - LEVEL 5]\nNotes: Subject showing 100% resistance to tested toxins.\nImmune system enhanced by 400%.\nTrial status: SUCCESS\n\nProject Association: Biological Defense Initiative\n\n---\nClassification: IMMORTECH SECURITY LEVEL 4\nRedaction Level: EXTREME"
+                              },
+                              "patient_IMT-2077023.txt": {
+                                "type": "file",
+                                "contents": "IMMORTECH PATIENT RECORD #IMT-2077023\n======================================\n\nSECURITY CLEARANCE LEVEL: 2 (RESTRICTED)\n\nName: [REDACTED]\nDOB: 2047-11-19\nMRN: IMT-2077023\nEmployee ID: [REDACTED]\nSecurity Clearance: Level 2\n\nAdmission Date: 2077-11-07\nPrimary Diagnosis: Cybernetic maintenance - limb replacement\nStatus: Completed\n\nTreatment: Left arm replacement, calibration\nOutcome: Successful integration\n\nAttending Physician: Dr. Chen\nNotes: Standard procedure. Patient cleared.\n\n---\nClassification: IMMORTECH SECURITY LEVEL 2\nRedaction Level: MODERATE"
+                              },
+                              "patient_IMT-2077024.txt": {
+                                "type": "file",
+                                "contents": "IMMORTECH PATIENT RECORD #IMT-2077024\n======================================\n\nSECURITY CLEARANCE LEVEL: 5 (TOP SECRET)\n\nName: [CLASSIFIED - LEVEL 6]\nDOB: [CLASSIFIED - LEVEL 6]\nMRN: IMT-2077024\nEmployee ID: [CLASSIFIED - LEVEL 6]\nSecurity Clearance: Level 5\nDepartment: [CLASSIFIED - LEVEL 6]\nAssignment: [CLASSIFIED - LEVEL 6]\nRank: [CLASSIFIED - LEVEL 6]\n\nAdmission Date: [CLASSIFIED - LEVEL 6]\nPrimary Diagnosis: [CLASSIFIED - LEVEL 7]\nStatus: [CLASSIFIED - LEVEL 6]\n\nTreatment Protocol: [CLASSIFIED - LEVEL 7]\nExperimental Procedures: [CLASSIFIED - LEVEL 7]\nBiological Modifications: [CLASSIFIED - LEVEL 7]\nGenetic Alterations: [CLASSIFIED - LEVEL 7]\nCybernetic Enhancements: [CLASSIFIED - LEVEL 7]\nCurrent Condition: [CLASSIFIED - LEVEL 6]\n\nAttending Physician: [CLASSIFIED - LEVEL 7]\nResearch Team: [CLASSIFIED - LEVEL 7]\nProject Director: [CLASSIFIED - LEVEL 7]\nExecutive Oversight: [CLASSIFIED - LEVEL 7]\n\nNotes: [CLASSIFIED - LEVEL 7 CLEARANCE REQUIRED]\n\nProject Association: PROJECT IMMORTAL - TRANSCENDENCE TIER\nTrial Phase: [CLASSIFIED - LEVEL 7]\nSuccess Metrics: [CLASSIFIED - LEVEL 7]\nComplications: [CLASSIFIED - LEVEL 7]\nLong-term Effects: [CLASSIFIED - LEVEL 7]\n\nBiological Samples: [CLASSIFIED - LEVEL 7]\nResearch Data: [CLASSIFIED - LEVEL 7]\n\n---\nClassification: IMMORTECH SECURITY LEVEL 5\nRedaction Level: MAXIMUM\n\nWARNING: This record contains information that could\ncompromise IMMORTECH's most sensitive operations.\nUnauthorized access will result in immediate termination."
+                              },
+                              "patient_IMT-2077025.txt": {
+                                "type": "file",
+                                "contents": "IMMORTECH PATIENT RECORD #IMT-2077025\n======================================\n\nSECURITY CLEARANCE LEVEL: 3 (CONFIDENTIAL)\n\nName: [REDACTED]\nDOB: 2049-07-04\nMRN: IMT-2077025\nEmployee ID: [REDACTED]\nSecurity Clearance: Level 3\n\nAdmission Date: 2077-10-29\nPrimary Diagnosis: Neural link upgrade\nStatus: Post-operative\n\nTreatment: Advanced neural interface installation\nFeatures: Direct data access, enhanced processing\nComplications: None\n\nAttending Physician: Dr. Williams\nNotes: Upgrade successful. Patient reporting improved\ncognitive function. Recommended for further enhancements.\n\nProject Association: Neural Enhancement Initiative\n\n---\nClassification: IMMORTECH SECURITY LEVEL 3\nRedaction Level: HIGH"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

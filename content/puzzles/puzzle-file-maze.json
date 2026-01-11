@@ -1,0 +1,34 @@
+{
+  "id": "puzzle-file-maze",
+  "desc": "Immortech patient database puzzle - find patient files",
+  "triggers": [
+    {
+      "type": "open",
+      "path": "/server_room/patient_database/classified/secure_vault/encrypted_archive/patient_files/patient_IMT-2077001.txt"
+    },
+    {
+      "type": "open",
+      "path": "/server_room/patient_database/classified/secure_vault/encrypted_archive/patient_files/patient_IMT-2077002.txt"
+    },
+    {
+      "type": "open",
+      "path": "/server_room/patient_database/classified/secure_vault/encrypted_archive/patient_files/patient_IMT-2077003.txt"
+    },
+    {
+      "type": "open",
+      "path": "/server_room/patient_database/classified/secure_vault/encrypted_archive/patient_files/patient_IMT-2077004.txt"
+    },
+    {
+      "type": "open",
+      "path": "/server_room/patient_database/classified/secure_vault/encrypted_archive/patient_files/patient_IMT-2077005.txt"
+    }
+  ],
+  "autoSolve": true,
+  "onSuccess": [
+    {
+      "action": "addFile",
+      "target": "/flag_immortech_data.txt",
+      "contents": "Congratulations! You have successfully infiltrated Immortech and extracted the confidential patient data. The future of medical tech is now in your hands."
+    }
+  ]
+}
